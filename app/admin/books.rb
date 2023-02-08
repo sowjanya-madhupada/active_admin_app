@@ -1,8 +1,8 @@
-ActiveAdmin.register Author do
+ActiveAdmin.register Book do
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
- permit_params :name, :of, :attributes, :on, :model
+permit_params :name, :price, :author_id,  :of, :attributes, :on, :model
 #
 # or
 #
